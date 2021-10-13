@@ -1,6 +1,32 @@
-body {
-    font-family: 'Red Hat Display', sans-serif;
+:root {
+    --primary-1 : hsl(225, 100%, 94%);
+    --primary-2 : hsl(245, 75%, 52%);
+
+    --neutral-1 : hsl(225, 100%, 98%);
+    --neutral-2 : hsl(224, 23%, 55%);
+    --neutral-3 : hsl(223, 47%, 23%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+ 
+
+
+
+
+
+
+
+
+
+/* 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); } 
+*/
