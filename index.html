@@ -7,30 +7,60 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Order summary card</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Order Summary
+  <main>
+    <section id="main-card">
+      <img src="images/illustration-hero.svg" alt="main image" id="main-image">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <div id="content-container">
+        <h1>
+          Order Summary
+        </h1>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+        <div id="annual-plan">
+          <div class="annual-text">
+            <img src="images/icon-music.svg" alt="music icon">
+            <div>
+              <span >
+                Annual Plan
+              </span><br>
+              <span class="price">
+                $59.99/year
+              </span>
+            </div>
+          </div>
+          <a href="#">
+            Change
+          </a>
+        </div>
 
-  Annual Plan
-  $59.99/year
 
-  Change
+        <div class="buttons">
+          <button id="proceed"> 
+            Proceed to Payment
+          </button>
+          <br>
+          <button id="cancel">
+            Cancel Order
+          </button>
+        </div>
+      </div>
 
-  Proceed to Payment
-  Cancel Order
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Mohamed Adel</a>.
+      </div> -->
+    </section>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
+  
+  
+  
 </body>
 </html>
